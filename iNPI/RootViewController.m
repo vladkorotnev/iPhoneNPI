@@ -140,19 +140,6 @@
 }
 
 
-- (NSString *)executeCommand:(NSString *)cmd
-{
-    NSString *output = [NSString string];
-    FILE *pipe = popen([cmd cStringUsingEncoding: NSASCIIStringEncoding], "r");
-    if (!pipe) return nil;
-    
-    char buf[1024];
-    while(fgets(buf, 1024, pipe)) {
-        output = [output stringByAppendingFormat: @"%s", buf];
-    }
-    pclose(pipe);
-    return output;
-}
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
@@ -183,11 +170,11 @@
                 system([[NSString stringWithFormat:@"%@ -s 38400 -d /dev/cu.iap /var/NPI/%@",[[NSBundle mainBundle]pathForResource:@"unixnpi-armv7" ofType:nil],currPkgName]UTF8String]);
                 process = [[UIActionSheet alloc]initWithTitle:@"Done" delegate:self cancelButtonTitle:@"OK" destructiveButtonTitle:nil otherButtonTitles:nil];
                 [process showInView:self.view];
-                
+                [currPkgName release];
                 break;
                 
             default:
-                currPkgName = @"";
+                [currPkgName release];
                 break;
         }
     }
@@ -201,11 +188,11 @@
                 }
                 [self.tableView reloadData];
                 
-                currPkgName = @"";
+                [currPkgName release];
                 break;
                 
             default:
-                currPkgName = @"";
+                [currPkgName release];
                 break;
         }
     }

@@ -1,0 +1,34 @@
+Contents of /Users/tigra/iNewtProject/iNPI/iNPI/iNPI-Prefix.pch
+2.0 (tags/Apple/clang-137) (based on LLVM 2.9svn)
+-x
+objective-c
+-arch
+i386
+-fmessage-length=0
+-fdiagnostics-print-source-range-info
+-fdiagnostics-show-category=id
+-fdiagnostics-parseable-fixits
+-std=gnu99
+-fpascal-strings
+-O0
+-DDEBUG
+-isysroot
+/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+-fexceptions
+-fasm-blocks
+-mmacosx-version-min=10.6
+-gdwarf-2
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-D__IPHONE_OS_VERSION_MIN_REQUIRED=40300
+-iquote
+-iquote
+-I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphonesimulator/include
+-F/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphonesimulator
+-DIBOutlet=__attribute__((iboutlet))
+-DIBAction=void)__attribute__((ibaction)
+-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection))
+-ferror-limit=10
+-working-directory=/Users/tigra/iNewtProject/iNPI
+-Xclang
+-detailed-preprocessing-record

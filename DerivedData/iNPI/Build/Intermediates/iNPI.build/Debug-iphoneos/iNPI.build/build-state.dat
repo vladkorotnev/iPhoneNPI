@@ -1,0 +1,581 @@
+TiNPI
+v3
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Info.plist iNPI/iNPI-Info.plist
+cProcessPCH /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-fbkbxdmgjotnqdbontuqagpdwudg/iNPI-Prefix.pch.gch iNPI/iNPI-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-btcphmsrdcvtyyfedyqcbjcosgpi/iNPI-Prefix.pch.gch iNPI/iNPI-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/main.o /Users/tigra/iNewtProject/iNPI/iNPI/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPIAppDelegate.o /Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/RootViewController.o /Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/RootViewController.o /Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPIAppDelegate.o /Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/main.o /Users/tigra/iNewtProject/iNPI/iNPI/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPI normal armv6
+cLd /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPI normal armv7
+cCreateUniversalBinary /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI normal "armv6 armv7"
+cGenerateDSYMFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app.dSYM /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI
+cCopyStringsFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/en.lproj/InfoPlist.strings iNPI/en.lproj/InfoPlist.strings
+cCompileXIB /Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/MainWindow.xib
+cCompileXIB /Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/RootViewController.xib
+cCpResource iNPI/unixnpi-armv7 DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/unixnpi-armv7
+cCopyPNGFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default@2x.png Default@2x.png
+cCopyPNGFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default.png Default.png
+cCopyPNGFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon.png Icon.png
+cCopyPNGFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon@2x.png Icon@2x.png
+cTouch /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI.xcent
+cCodeSign /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D5F25270000000000000110
+t1298081063
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Users/tigra/iNewtProject/iNPI/Default.png
+c000000004D8DBFF500000000000972A8
+t1301135349
+s619176
+
+N/Users/tigra/iNewtProject/iNPI/Default@2x.png
+c000000004D8DBFC1000000000025A02C
+t1301135297
+s2465836
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/RootViewController.o
+t1301137288
+s59876
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPI
+t1301137288
+s24536
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPI.LinkFileList
+c000000004D8DACEE00000000000001A8
+t1301130478
+s424
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPIAppDelegate.o
+t1301134607
+s50356
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/main.o
+t1301130480
+s3884
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/RootViewController.o
+t1301137288
+s60132
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPI
+t1301137288
+s24536
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPI.LinkFileList
+c000000004D8DACEE00000000000001A8
+t1301130478
+s424
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPIAppDelegate.o
+t1301134607
+s50232
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/main.o
+t1301130480
+s3896
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI.xcent
+t1301136847
+s352
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-btcphmsrdcvtyyfedyqcbjcosgpi/iNPI-Prefix.pch.gch
+t1301130480
+s8435612
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-fbkbxdmgjotnqdbontuqagpdwudg/iNPI-Prefix.pch.gch
+t1301130479
+s7939996
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app
+t1301137288
+s544
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app.dSYM
+t1301137288
+s102
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default.png
+t1301135470
+s30538
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default@2x.png
+t1301135470
+s86913
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon.png
+t1301136847
+s3547
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon@2x.png
+t1301136847
+s3804
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Info.plist
+t1301136847
+s1050
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/PkgInfo
+t1301136847
+s8
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/ResourceRules.plist
+t1301130478
+s485
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/en.lproj/InfoPlist.strings
+t1301130482
+s42
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/en.lproj/MainWindow.nib
+t1301135470
+s2531
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/en.lproj/RootViewController.nib
+t1301130484
+s1518
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI
+t1301137288
+s67248
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-114.png
+t2
+s0
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-47.png
+t2
+s0
+
+N/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/unixnpi-armv7
+t1301130484
+s22416
+
+N/Users/tigra/iNewtProject/iNPI/Icon.png
+c000000004D8DBDBD0000000000003FF3
+t1301134781
+s16371
+
+N/Users/tigra/iNewtProject/iNPI/Icon@2x.png
+c000000004D8DBDD8000000000000D8B9
+t1301134808
+s55481
+
+N/Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.h
+c000000004D8DBC4600000000000001C0
+t1301134406
+s448
+i<UIKit/UIKit.h>
+
+N/Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m
+c000000004D8DC7870000000000001C94
+t1301137287
+s7316
+i"RootViewController.h"
+
+N/Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/InfoPlist.strings
+c000000004D8DAB86000000000000002D
+t1301130118
+s45
+
+N/Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/MainWindow.xib
+c000000004D8DBD4200000000000037EC
+t1301134658
+s14316
+
+N/Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/RootViewController.xib
+c000000004D8DAB870000000000004447
+t1301130119
+s17479
+
+N/Users/tigra/iNewtProject/iNPI/iNPI/iNPI-Prefix.pch
+c000000004D8DAB86000000000000013A
+t1301130118
+s314
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.h
+c000000004D8DBC0C00000000000001A0
+t1301134348
+s416
+i<UIKit/UIKit.h>
+
+N/Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m
+c000000004D8DBCC700000000000009B6
+t1301134535
+s2486
+i"iNPIAppDelegate.h"
+
+N/Users/tigra/iNewtProject/iNPI/iNPI/main.m
+c000000004D8DAB86000000000000015E
+t1301130118
+s350
+i<UIKit/UIKit.h>
+
+N/Users/tigra/iNewtProject/iNPI/iNPI/unixnpi-armv7
+c000000004D8D93170000000000005790
+t1301123863
+s22416
+
+N/Users/tigra/iNewtProject/iNPI/loadpkg-114.png
+c000000004D8DBDD8000000000000D8B9
+t1301134808
+s55481
+
+N/Users/tigra/iNewtProject/iNPI/loadpkg-47.png
+c000000004D8DBDBD0000000000003FF3
+t1301134781
+s16371
+
+NiNPI/iNPI-Info.plist
+c000000004D8DC5CC00000000000004E6
+t1301136844
+s1254
+
+CBuild AST from /Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m
+r0
+
+CBuild AST from /Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m
+r0
+
+CBuild AST from /Users/tigra/iNewtProject/iNPI/iNPI/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies51da9718ff3db341^40139d18ff3db341^---0#1#0#--18"Check dependencies
+
+CCodeSign /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app
+s322830088.762128
+e322830088.961317
+r1
+xCodeSign
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CodeSign DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.appa73bc308ff3db341^df18f608ff3db341^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/0000000000000000^722"CodeSign DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer" --resource-rules=/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/ResourceRules.plist --entitlements /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI.xcent /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app
+
+CCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/RootViewController.o /Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s322830088.456129
+e322830088.646466
+r1
+xCompileC
+xDerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/RootViewController.o
+x/Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.mf8dd7408ff3db341^b090a508ff3db341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m0000000000000000^2054"CompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/RootViewController.o iNPI/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/iNewtProject/iNPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-generated-files.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-own-target-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-all-target-headers.hmap -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-project-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/include -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources/armv6 -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources -F/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -include /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-fbkbxdmgjotnqdbontuqagpdwudg/iNPI-Prefix.pch -c /Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/RootViewController.o
+
+CCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPIAppDelegate.o /Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s322827407.094048
+e322827407.240701
+r1
+xCompileC
+xDerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPIAppDelegate.o
+x/Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m8732188ff43db341^a0a73d8ff43db341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m0000000000000000^2042"CompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPIAppDelegate.o iNPI/iNPIAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/iNewtProject/iNPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-generated-files.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-own-target-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-all-target-headers.hmap -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-project-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/include -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources/armv6 -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources -F/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -include /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-fbkbxdmgjotnqdbontuqagpdwudg/iNPI-Prefix.pch -c /Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPIAppDelegate.o
+
+CCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/main.o /Users/tigra/iNewtProject/iNPI/iNPI/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s322823280.611594
+e322823280.705410
+r1
+xCompileC
+xDerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/main.o
+x/Users/tigra/iNewtProject/iNPI/iNPI/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/tigra/iNewtProject/iNPI/iNPI/main.m1cb39c70e43db341^7d95b470e43db341^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/main.m0000000000000000^1998"CompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/main.o iNPI/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/iNewtProject/iNPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-generated-files.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-own-target-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-all-target-headers.hmap -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-project-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/include -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources/armv6 -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources -F/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -include /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-fbkbxdmgjotnqdbontuqagpdwudg/iNPI-Prefix.pch -c /Users/tigra/iNewtProject/iNPI/iNPI/main.m -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/main.o
+
+CCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/RootViewController.o /Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s322830088.457246
+e322830088.655117
+r1
+xCompileC
+xDerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/RootViewController.o
+x/Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m39287508ff3db341^d1e7a708ff3db341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m0000000000000000^2054"CompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/RootViewController.o iNPI/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/iNewtProject/iNPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-generated-files.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-own-target-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-all-target-headers.hmap -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-project-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/include -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources/armv7 -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources -F/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -include /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-btcphmsrdcvtyyfedyqcbjcosgpi/iNPI-Prefix.pch -c /Users/tigra/iNewtProject/iNPI/iNPI/RootViewController.m -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/RootViewController.o
+
+CCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPIAppDelegate.o /Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s322827407.241956
+e322827407.403742
+r1
+xCompileC
+xDerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPIAppDelegate.o
+x/Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.ma1133e8ff43db341^925b678ff43db341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m0000000000000000^2042"CompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPIAppDelegate.o iNPI/iNPIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/iNewtProject/iNPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-generated-files.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-own-target-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-all-target-headers.hmap -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-project-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/include -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources/armv7 -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources -F/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -include /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-btcphmsrdcvtyyfedyqcbjcosgpi/iNPI-Prefix.pch -c /Users/tigra/iNewtProject/iNPI/iNPI/iNPIAppDelegate.m -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPIAppDelegate.o
+
+CCompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/main.o /Users/tigra/iNewtProject/iNPI/iNPI/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s322823280.335127
+e322823280.611044
+r1
+xCompileC
+xDerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/main.o
+x/Users/tigra/iNewtProject/iNPI/iNPI/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/tigra/iNewtProject/iNPI/iNPI/main.m99f25570e43db341^e2769c70e43db341^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/main.m0000000000000000^1998"CompileC DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/main.o iNPI/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/iNewtProject/iNPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-generated-files.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-own-target-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-all-target-headers.hmap -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-project-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/include -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources/armv7 -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources -F/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -include /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-btcphmsrdcvtyyfedyqcbjcosgpi/iNPI-Prefix.pch -c /Users/tigra/iNewtProject/iNPI/iNPI/main.m -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/main.o
+
+CCompileXIB /Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/MainWindow.xib
+s322828269.300534
+e322828270.427222
+r1
+xCompileXIB
+x/Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/MainWindow.xib
+o2011-03-26 15:31:10.273 Interface Builder Cocoa Touch Tool[3469:1803] CFPreferences: user home directory at file://localhost/Users/tigra/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compiling /Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/MainWindow.xib36024dedf73db341^7b666deef73db341^-239"2011-03-26 15:31:10.273 Interface Builder Cocoa Touch Tool[3469:1803] CFPreferences: user home directory at file://localhost/Users/tigra/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/MainWindow.xib0000000000000000^613"CompileXIB iNPI/en.lproj/MainWindow.xib    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/en.lproj/MainWindow.nib /Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCompileXIB /Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/RootViewController.xib
+s322823282.684995
+e322823284.796765
+r1
+xCompileXIB
+x/Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/RootViewController.xib
+o2011-03-26 14:08:04.585 Interface Builder Cocoa Touch Tool[2384:1803] CFPreferences: user home directory at file://localhost/Users/tigra/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compiling /Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/RootViewController.xiba871af72e43db341^7d06cc74e43db341^-239"2011-03-26 14:08:04.585 Interface Builder Cocoa Touch Tool[2384:1803] CFPreferences: user home directory at file://localhost/Users/tigra/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/RootViewController.xib0000000000000000^637"CompileXIB iNPI/en.lproj/RootViewController.xib    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/en.lproj/RootViewController.nib /Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCopyPNGFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default.png Default.png
+s322828270.331477
+e322828270.485548
+r1
+xCopyPNGFile
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default.png
+xDefault.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"CopyPNGFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default.png Default.png74f054eef73db341^9d4c7ceef73db341^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/tigra/iNewtProject/iNPI/Default.png0000000000000000^559"CopyPNGFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default.png Default.png    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tigra/iNewtProject/iNPI/Default.png /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default.png
+
+CCopyPNGFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default@2x.png Default@2x.png
+s322828269.794860
+e322828270.331169
+r1
+xCopyPNGFile
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default@2x.png
+xDefault@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"CopyPNGFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default@2x.png Default@2x.pngbd8fcbedf73db341^7ac854eef73db341^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/tigra/iNewtProject/iNPI/Default@2x.png0000000000000000^575"CopyPNGFile "DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default@2x.png" "Default@2x.png"    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tigra/iNewtProject/iNPI/Default@2x.png /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Default@2x.png
+
+CCopyPNGFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon.png Icon.png
+s322829647.676423
+e322829647.726708
+r1
+xCopyPNGFile
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon.png
+xIcon.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"CopyPNGFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon.png Icon.pngfe63ad4ffd3db341^1215ba4ffd3db341^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Users/tigra/iNewtProject/iNPI/Icon.png0000000000000000^547"CopyPNGFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon.png Icon.png    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tigra/iNewtProject/iNPI/Icon.png /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon.png
+
+CCopyPNGFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon@2x.png Icon@2x.png
+s322829647.677501
+e322829647.749803
+r1
+xCopyPNGFile
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon@2x.png
+xIcon@2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"CopyPNGFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon@2x.png Icon@2x.png5682ad4ffd3db341^7578c04ffd3db341^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Users/tigra/iNewtProject/iNPI/Icon@2x.png0000000000000000^563"CopyPNGFile "DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon@2x.png" "Icon@2x.png"    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tigra/iNewtProject/iNPI/Icon@2x.png /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Icon@2x.png
+
+CCopyPNGFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-114.png loadpkg-114.png
+s322828269.735910
+e322828269.794585
+r1
+xCopyPNGFile
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-114.png
+xloadpkg-114.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"CopyPNGFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-114.png loadpkg-114.pngb878bcedf73db341^8869cbedf73db341^---0#0#0#-19%DVTDocumentLocation2@62"file://localhost/Users/tigra/iNewtProject/iNPI/loadpkg-114.png0000000000000000^575"CopyPNGFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-114.png loadpkg-114.png    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tigra/iNewtProject/iNPI/loadpkg-114.png /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-114.png
+
+CCopyPNGFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-47.png loadpkg-47.png
+s322828269.300952
+e322828269.735464
+r1
+xCopyPNGFile
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-47.png
+xloadpkg-47.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"CopyPNGFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-47.png loadpkg-47.png0d1b4dedf73db341^4e47bcedf73db341^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/tigra/iNewtProject/iNPI/loadpkg-47.png0000000000000000^571"CopyPNGFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-47.png loadpkg-47.png    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tigra/iNewtProject/iNPI/loadpkg-47.png /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/loadpkg-47.png
+
+CCopyStringsFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/en.lproj/InfoPlist.strings iNPI/en.lproj/InfoPlist.strings
+s322823282.660124
+e322823282.684243
+r1
+xCopyStringsFile
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/en.lproj/InfoPlist.strings
+xiNPI/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy iNPI/en.lproj/InfoPlist.stringsf913a972e43db341^8d2aaf72e43db341^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/en.lproj/InfoPlist.strings0000000000000000^514"CopyStringsFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/en.lproj/InfoPlist.strings iNPI/en.lproj/InfoPlist.strings    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/en.lproj -- iNPI/en.lproj/InfoPlist.strings
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/ResourceRules.plist
+s322823278.066868
+e322823278.118438
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+xDerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/ResourceRules.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/ResourceRules.plist7e37116ee43db341^8123216ee43db341^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/ResourceRules.plist000020442305f041^615"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/ResourceRules.plist    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app
+
+CCpResource iNPI/unixnpi-armv7 DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/unixnpi-armv7
+s322823284.795027
+e322823284.798541
+r1
+xCpResource
+xiNPI/unixnpi-armv7
+xDerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/unixnpi-armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/unixnpi-armv7b29dcb74e43db341^5c72cc74e43db341^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/unixnpi-armv7000020442305f041^498"CpResource iNPI/unixnpi-armv7 DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/unixnpi-armv7    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/tigra/iNewtProject/iNPI/iNPI/unixnpi-armv7 /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app
+
+CCreateUniversalBinary /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI normal "armv6 armv7"
+s322830088.699094
+e322830088.708970
+r1
+xCreateUniversalBinary
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Create universal binary /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPIbc08b308ff3db341^417fb508ff3db341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI0000000000000000^654"CreateUniversalBinary DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI normal "armv6 armv7"    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPI /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPI -output /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI
+
+CGenerateDSYMFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app.dSYM /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI
+s322830088.709157
+e322830088.744114
+r1
+xGenerateDSYMFile
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app.dSYM
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Generating /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app.dSYMb79ab508ff3db341^ed7dbe08ff3db341^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app.dSYM/0000000000000000^520"GenerateDSYMFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app.dSYM DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/iNPI -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app.dSYM
+
+CLd /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPI normal armv6
+s322830088.647091
+e322830088.698168
+r1
+xLd
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPI
+xnormal
+xarmv6
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPIf1bba508ff3db341^5cc9b208ff3db341^---0#0#0#--1036"Ld DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPI normal armv6    cd /Users/tigra/iNewtProject/iNPI    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -F/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -filelist /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPI.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv6/iNPI
+
+CLd /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPI normal armv7
+s322830088.655318
+e322830088.698911
+r1
+xLd
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPI
+xnormal
+xarmv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPIf0dca708ff3db341^d0ecb208ff3db341^---0#0#0#--1036"Ld DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPI normal armv7    cd /Users/tigra/iNewtProject/iNPI    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -F/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -filelist /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPI.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/Objects-normal/armv7/iNPI
+
+CProcessInfoPlistFile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Info.plist iNPI/iNPI-Info.plist
+s322829647.659933
+e322829647.670388
+r1
+xProcessInfoPlistFile
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Info.plist
+xiNPI/iNPI-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process iNPI/iNPI-Info.plist9d11a94ffd3db341^56b6ab4ffd3db341^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/iNPI-Info.plist0000000000000000^710"ProcessInfoPlistFile DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Info.plist iNPI/iNPI-Info.plist    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iNPI/iNPI-Info.plist -genpkginfo /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/ResourceRules.plist -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app/Info.plist
+
+CProcessPCH /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-btcphmsrdcvtyyfedyqcbjcosgpi/iNPI-Prefix.pch.gch iNPI/iNPI-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s322823278.120566
+e322823280.334653
+r1
+xProcessPCH
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-btcphmsrdcvtyyfedyqcbjcosgpi/iNPI-Prefix.pch.gch
+xiNPI/iNPI-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile iNPI/iNPI-Prefix.pchbaf91e6ee43db341^79ac5570e43db341^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/iNPI-Prefix.pch0000000000000000^1888"ProcessPCH DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-btcphmsrdcvtyyfedyqcbjcosgpi/iNPI-Prefix.pch.gch iNPI/iNPI-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/iNewtProject/iNPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-generated-files.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-own-target-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-all-target-headers.hmap -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-project-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/include -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources/armv7 -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources -F/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -c /Users/tigra/iNewtProject/iNPI/iNPI/iNPI-Prefix.pch -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-btcphmsrdcvtyyfedyqcbjcosgpi/iNPI-Prefix.pch.gch
+
+CProcessPCH /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-fbkbxdmgjotnqdbontuqagpdwudg/iNPI-Prefix.pch.gch iNPI/iNPI-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s322823278.120408
+e322823280.577156
+r1
+xProcessPCH
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-fbkbxdmgjotnqdbontuqagpdwudg/iNPI-Prefix.pch.gch
+xiNPI/iNPI-Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile iNPI/iNPI-Prefix.pch17f01e6ee43db341^afcc9370e43db341^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/tigra/iNewtProject/iNPI/iNPI/iNPI-Prefix.pch0000000000000000^1888"ProcessPCH DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-fbkbxdmgjotnqdbontuqagpdwudg/iNPI-Prefix.pch.gch iNPI/iNPI-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/iNewtProject/iNPI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-generated-files.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-own-target-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-all-target-headers.hmap -iquote /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI-project-headers.hmap -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/include -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources/armv6 -I/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/DerivedSources -F/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos -c /Users/tigra/iNewtProject/iNPI/iNPI/iNPI-Prefix.pch -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/PrecompiledHeaders/iNPI-Prefix-fbkbxdmgjotnqdbontuqagpdwudg/iNPI-Prefix.pch.gch
+
+CProcessPCH /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Index/PrecompiledHeaders/iNPI-Prefix-aicsfqgvjhbilpbepsxbujlyrked_ast/iNPI-Prefix.pch.pth iNPI/iNPI-Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Index/PrecompiledHeaders/iNPI-Prefix-cwdizqtkbzebvhanfeduhoyshwpa_ast/iNPI-Prefix.pch.pth iNPI/iNPI-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI.xcent
+s322829647.762309
+e322829647.778278
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI.xcent
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection197"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI.xcent853fc34ffd3db341^fd33c74ffd3db341^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI.xcent0000000000000000^636"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI.xcent    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Intermediates/iNPI.build/Debug-iphoneos/iNPI.build/iNPI.xcent
+
+CTouch /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app
+s322830088.749033
+e322830088.759076
+r1
+xTouch
+x/Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.appedd5bf08ff3db341^9753c208ff3db341^---0#0#0#--333"Touch DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app    cd /Users/tigra/iNewtProject/iNPI    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tigra/iNewtProject/iNPI/DerivedData/iNPI/Build/Products/Debug-iphoneos/iNPI.app
+

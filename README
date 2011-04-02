@@ -1,0 +1,64 @@
+========= iPhone NPI ==========
+~ A Newton Package Installer for the iPhone
+
+======= News bulletin =========
+We need beta testers! Feel free to test this app and contact me about any bugs you find!
+
+======== Description ==========
+WARNING: This app is in early beta and may contain critical bugs. If you find any, please contact the developer.
+
+
+This is a Newton Package Installer for jailbroken iPhone, iPod Touch and iPad.
+
+It is based on UnixNPI by Victor Rehorst.
+It can be used for installing apps to your Newton while on the go!
+
+======= Installation ==========
+
+This app is in beta and requires some setup to work.
+
+Step 1. Get the app itself. You may want to build it yourself or get it from DerivedData/iNPI/Build/Products/debug-iphoneos.
+
+Step 2. Install the app. Put the iNPI.app file into /Applications on your iPhone using SSH. Then do these commands over SSH, while logged in as user mobile:
+-=-=-
+cd /Applications/iNPI.app
+chmod 755 *
+uicache
+-=-=-
+If you don't have SSH on your iPhone, go to Cydia and install OpenSSH.
+If you get a 'command not found' error when doing the uicache command, install UIKitTools from Cydia.
+
+Step 3. Upload packages
+Using SSH, create a new folder /var/NPI and fill it with packages.
+
+Step 4. Make the serial cable.
+Get info on the serial cable on the NamedFork site:
+http://namedfork.net/iphone/serial
+
+Step 5. Done! 
+Now you can install packages onto your Newt from your iPhone!
+
+=========== Usage ==========
+
+Step 1. Connect the serial cable to the Newton, then to the iPhone.
+
+Step 2. Open 'Dock' app on the Newton, select 'Serial' but don't connect yet.
+
+Step 3. Tap on a package file you want to install, then in the menu that appears select Install.
+
+Step 4. When the iPhone looks like it's hanged, hit Connect on your Newton. Package should start installing.
+
+Step 5. When the package is installed, iPhone will display the 'Done' message.
+
+========== TODO's ============
+// + = Feature;
+// ! = minor bug
+// !! = major bug
+// !!! = critical bug
+// U+ = UI improvement
+// U! = UI bug
+// R! = bug that appears randomly
+
++		Add an option to download packages from UNNA.org
+!!!/U!		Fix a bug when selecting from the list a second time crashes the app.
+==============================
